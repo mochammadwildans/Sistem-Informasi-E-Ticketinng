@@ -1,0 +1,4 @@
+BEGIN
+	UPDATE tiket SET satuan_tiket=satuan_tiket-NEW.satuan_tiket
+    	WHERE no = new.no;
+END
